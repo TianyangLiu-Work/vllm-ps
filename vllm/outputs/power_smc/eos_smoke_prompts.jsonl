@@ -1,0 +1,1 @@
+{"prompt": "<|im_start|>system\nYou answer with the shortest possible response.<|im_end|>\n<|im_start|>user\nReply with exactly OK.<|im_end|>\n<|im_start|>assistant\n", "answer": "ok"}

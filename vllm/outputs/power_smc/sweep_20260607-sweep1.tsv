@@ -1,0 +1,4 @@
+run_tag	label	job_id	model	num_prompts	prompt_file	max_tokens	particles	block_size	alpha	alpha_ramp_tokens	ess_threshold	gpu_memory_utilization	attention_backend	ignore_eos	stop_token_id
+20260607-sweep1	p8_t64_a4	1060	/data/shared/models/Qwen2.5-0.5B-Instruct	3		64	8	16	4.0	1	1.0	0.50	FLASHINFER	1	
+20260607-sweep1	p16_t128_a16	1061	/data/shared/models/Qwen2.5-0.5B-Instruct	3		128	16	16	16.0	1	1.0	0.50	FLASHINFER	1	
+20260607-sweep1	p32_t128_a16	1062	/data/shared/models/Qwen2.5-0.5B-Instruct	3		128	32	16	16.0	1	1.0	0.50	FLASHINFER	1	

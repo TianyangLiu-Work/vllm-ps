@@ -1,0 +1,52 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+dist/
+build/
+*.so
+*.o
+*.a
+*.la
+*.lo
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# IDE / editors
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Cached data
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.tox/
+.coverage
+htmlcov/
+
+# vLLM build artifacts
+vllm/vllm/vllm-rs
+vllm/vllm/vllm_flash_attn/_vllm_fa2_C.abi3.so
+vllm/vllm/vllm_flash_attn/_vllm_fa3_C.abi3.so
+
+# Large benchmark outputs / logs
+vllm/outputs/power_smc/*.json
+vllm/outputs/slurm/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Environment (keep example)
+.env
+.env.local
